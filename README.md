@@ -7,10 +7,10 @@ If your site lives in a different subdirectory (particularly useful with GitHub 
 
 | Status | Response  |
 | ------ | --------- |
-| Command Line Override    |Some code here:<br><pre>--pathprefix&#13;</pre>|
+|     |Some code here:<br><pre>&#13;</pre>|
 | 400    |Some text here|
 
 | Status | Response  |
 | ------ | --------- |
-| 200    |Some code here:<br><pre lang="json">{  "id": 10,  "username": "alanpartridge"}</pre>|
-| 400    |Some text here|
+| Command Line Override |<pre lang="text">--pathprefix</pre>|
+
